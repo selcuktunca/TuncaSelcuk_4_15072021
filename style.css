@@ -27,6 +27,8 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+
+
 .bloc {
     width: 100%;
     clear: both;
@@ -99,9 +101,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+/*.d-bloc {
     color: rgba(255, 255, 255, .7);
-}
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -133,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #353535;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +152,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #ac2d47;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -284,7 +286,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .navbar {
@@ -304,7 +306,9 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
+    display: inline-block;
+    height: 28px;
+    border-bottom: white solid 2px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -321,8 +325,15 @@ a:hover {
     float: right;
     z-index: 1;
 }
+.navbar-nav li {
+    border-bottom: solid 2px white;
+  }
+  
+  .navbar-nav li:hover {
+    border-bottom: solid 2px;
+  }
 
-.nav > li {
+  .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
@@ -372,7 +383,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #272525;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -453,9 +464,7 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -519,7 +528,17 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    background-color: #a42a42;
+    border: solid 2px white;
 }
+
+.scrollToTop:hover {
+    background-color: #4613fd;
+  }
+  
+  .scrollToTop:focus {
+    background-color: #4613fd ;
+  }
 
 .scrollToTop span {
     margin-top: 6px;
@@ -677,7 +696,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +724,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4em;
 }
 
@@ -753,11 +772,14 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #555033;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
+    font-weight: 900;
+}
+.bold-link:hover{
     font-weight: 900;
     text-decoration: underline!important;
 }
@@ -771,25 +793,42 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fff;
 }
 
+.bgc-atomic-tangerine--color {
+    background-color: #ac2d47;
+  }
+
+  #bloc-1-hero {
+    min-height: 476px;
+  }
+
 .tc-white {
-    color: #F3976C!important;
+    color: #ac2d47!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ac2d47;
     color: #FFFFFF!important;
+    border: solid 2px transparent;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #fdad17!important;
+    color: #353535!important;
+    border: solid 2px white;
 }
 
 .ltc-white {
     color: #FFFFFF!important;
+    display: inline-block;
+    font-size: 24px;
+    padding: 30px;
+    margin-top: 44px;
+    border: solid 3px;
+    border-style: dotted;
+
 }
 
 .ltc-white:hover {
@@ -797,7 +836,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c27956!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -824,6 +863,33 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.Partners{
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    text-align: justify;
+}
+
+.Titre-partners{
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+#form_1 {
+    font-size: 16px;
+  }
+  
+  #form_1 input,
+  #form_1 textarea {
+    border: 2px solid;
+  }
+  
+  #form_1 input:focus,
+  #form_1 textarea:focus {
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.07), 0px 0px 3px 3px rgba(155, 37, 61, 0.6);
+  }
 
 @media (max-width: 1024px) {
     .bloc {
@@ -872,9 +938,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+   
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,10 +948,14 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
-}
+    .Form-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 @media (max-width: 767px) {
     .page-container {
@@ -1026,6 +1094,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
