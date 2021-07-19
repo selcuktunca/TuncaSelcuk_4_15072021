@@ -772,10 +772,13 @@ h4 {
 }
 
 .black-background {
-    background-color: #555033;
+    background-color: #5c5737;
     padding: 40px 40px 40px 40px;
 }
-
+.grey-background {
+    background-color: #3f3e3e;
+    padding: 40px 40px 40px 40px;
+  }
 
 .bold-link {
     font-weight: 900;
@@ -806,7 +809,7 @@ h4 {
   }
 
 .tc-white {
-    color: #ac2d47!important;
+    color: #a42a42!important;
 }
 
 .btn-atomic-tangerine {
