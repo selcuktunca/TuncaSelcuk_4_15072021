@@ -871,6 +871,9 @@ h4 {
     margin-right: auto;
     width: 320px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Titre-partners{
