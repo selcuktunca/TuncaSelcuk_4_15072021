@@ -670,7 +670,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:#333333!important;
 }
 
 .container {
@@ -775,10 +775,6 @@ h4 {
     background-color: #5c5737;
     padding: 40px 40px 40px 40px;
 }
-.grey-background {
-    background-color: #3f3e3e;
-    padding: 40px 40px 40px 40px;
-  }
 
 .bold-link {
     font-weight: 900;
@@ -809,12 +805,13 @@ h4 {
   }
 
 .tc-white {
-    color: #a42a42!important;
+    color: #BBFAEB!important;
 }
 
+
 .btn-atomic-tangerine {
-    background: #ac2d47;
-    color: #FFFFFF!important;
+    background: #BBFAEB;
+    color: black!important;
     border: solid 2px transparent;
 }
 
