@@ -286,7 +286,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 36px;
+    font-size: 38px;
 }
 
 .navbar {
@@ -300,14 +300,13 @@ a:hover {
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 38px;
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline-block;
-    height: 28px;
     border-bottom: white solid 2px;
 }
 
@@ -719,8 +718,11 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 320px;
     margin: auto auto auto auto;
+    
 }
 
 h2 {
@@ -773,7 +775,6 @@ h4 {
 
 .black-background {
     background-color: #5c5737;
-    padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
@@ -881,7 +882,7 @@ h4 {
 
 .Titre-partners{
     font-size: 24px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 #form_1 {
@@ -1108,6 +1109,12 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    #bloc-1-hero h1{
+        font-size: 30px;
+    }
+    .navbar-brand img{
+        height: 28px;
     }
 }
 
